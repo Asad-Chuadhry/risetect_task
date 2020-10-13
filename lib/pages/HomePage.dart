@@ -43,7 +43,13 @@ class HomePage extends StatelessWidget {
               Text(AppStrings.tabBarItemNameList[0].toString()+" ("+goingMeetUpList.length.toString()+")")),
               Tab(child:Text(AppStrings.tabBarItemNameList[1].toString()+" ("+hostingMeetUpList.length.toString()+")")),
               Tab(child:Text(AppStrings.tabBarItemNameList[2].toString()+" ("+invitesMeetUpList.length.toString()+")")),
-              Tab(child: AppIcons.favoriteIconTabBar,),
+              Tab(child:
+              Row(
+                children: [
+                  AppIcons.favoriteIconTabBar,
+                  Text("("+favoriteMeetUpList.length.toString()+")")
+                ],
+              ),),
             ],
           ),
         ),

@@ -99,5 +99,19 @@ List<MeetUp> meetUpList=[
         "assets/img/1.jpg",
       ],
       isFavorite: true,
+      status: Status.NONE),  MeetUp(
+      title: "Blackout Club-Cheap drinks",
+      date: DateTime.now(),
+      imagesList: [
+        "assets/img/1.jpg",
+      ],
+      isFavorite: true,
+      status: Status.NONE),  MeetUp(
+      title: "Blackout Club-Cheap drinks",
+      date: DateTime.now(),
+      imagesList: [
+        "assets/img/1.jpg",
+      ],
+      isFavorite: true,
       status: Status.NONE),
 ];
